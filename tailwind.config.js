@@ -7,8 +7,19 @@ module.exports = {
         'accent-1': '#FAFAFA',
         'accent-2': '#EAEAEA',
         'accent-7': '#333',
+        'black':'#000000',
+        'white':'#F1F1F1',
         success: '#0070f3',
         cyan: '#79FFE1',
+      },
+      animation: {
+        border: 'background ease infinite',
+      },
+      keyframes: {
+        background: {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
       },
       spacing: {
         28: '7rem',

@@ -25,14 +25,14 @@ export default function Post({ post, morePosts, preview }: Props) {
     return <ErrorPage statusCode={404} />
   }
   return (
-    <Layout preview={preview}>
+      <Layout>
       <Container>
-        <Header />
+    
         {router.isFallback ? (
           <PostTitle>Loading…</PostTitle>
         ) : (
           <>
-            <article className="mb-32">
+            <article className="mb-32 bg-black max-w-2xl mx-auto">
               <Head>
                 <title>{title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
@@ -48,7 +48,7 @@ export default function Post({ post, morePosts, preview }: Props) {
           </>
         )}
       </Container>
-    </Layout>
+      </Layout>
   )
 }
 

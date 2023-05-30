@@ -15,7 +15,7 @@ const Alert = ({ preview }: Props) => {
       })}
     >
       <Container>
-        <div className="py-2 text-center text-sm">
+        <div className="py-2 text-center text-sm bg-black">
           {preview ? (
             <>
               This page is a preview.{' '}
