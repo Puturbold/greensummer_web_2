@@ -10,7 +10,7 @@ const Header = () => {
       <ul className='flex flex-row gap-4'>
 
         <Link href="/">Projects</Link>
-        <Link href="/">Resume</Link>
+        <Link href="/assets/PDF/Turbold Baatarchuluu 2023 Resume.pdf">Resume</Link>
         <a href="https://github.com/Puturbold">Github</a>
       </ul>
 
