@@ -10,29 +10,32 @@ To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) a
 
 ## Demo
 
-[https://turbold-homepage.vercel.app/](https://turbold-homepage.vercel.app//)
+[https://greensummer-web-2.vercel.app/](https://greensummer-web-2.vercel.app//)
 
 
-## How to use
+## How to start up developer environment after cloning repo
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog-starter blog-starter-app
-```
-
-```bash
-yarn create next-app --example blog-starter blog-starter-app
-```
-
-```bash
-pnpm create next-app --example blog-starter blog-starter-app
-```
-
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
+1. Git clone repo
+2. cd to cloned repo
+3. Install Node.js: Visit the official Node.js website (**[https://nodejs.org](https://nodejs.org/)**) and download the appropriate installer for your operating system. Run the installer and follow the instructions to install Node.js.
+4. Verify Node.js installation: Open a command prompt or terminal and run the following command to verify that Node.js and npm are installed correctly:
+    
+    ```bash
+    node -v
+    npm -v
+    ```
+    
+5. Make sure you have installed the necessary dependencies: In the root directory of your project, run the following command to install the required dependencies:
+    
+    ```bash
+    Copy code
+    npm install
+    ```
+    
+    This command will read the **`package.json`** file and install the dependencies listed under the "dependencies" and "devDependencies" sections.
+    
+6. After following these steps, try running the "dev" script again with the **`npm run dev`** command. It should now recognize the "next" command and start the development server for your Next.js project.
+7. Now you can start the developer environment by going to http://localhost:3000/
 # Notes
 
 `blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
