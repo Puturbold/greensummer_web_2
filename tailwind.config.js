@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
+        'accent-1': '#ffe569',
+        'accent-2': '#056126',
         'accent-7': '#333',
-        'black':'#000000',
-        'white':'#F1F1F1',
+        'black':'#056126',
+        'white':'#ffe569',
         success: '#0070f3',
         cyan: '#79FFE1',
       },

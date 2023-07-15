@@ -5,13 +5,12 @@ const Header = () => {
 
     <div className="flex justify-between text-white font-bold lg:text-2xl md:text-lg pt-6 mb-32">
       <div className='' >
-      <Link href="/">Turbold Baatarchuluu </Link>
+      <Link href="/">Green Summer</Link>
       </div>
       <ul className='flex flex-row gap-4'>
 
         <Link href="/">Projects</Link>
-        <Link href="/assets/PDF/Turbold Baatarchuluu 2023 Resume.pdf">Resume</Link>
-        <a href="https://github.com/Puturbold">Github</a>
+        <a href="https://github.com/ta346/greensummer/tree/main">Github</a>
       </ul>
 
   </div>            
