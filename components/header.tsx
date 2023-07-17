@@ -8,8 +8,8 @@ const Header = () => {
       <Link href="/">Green Summer</Link>
       </div>
       <ul className='flex flex-row gap-4'>
-
-        <Link href="/">Projects</Link>
+        <Link href="/">Home</Link>
+        <Link href="posts/about">About</Link>
         <a href="https://github.com/ta346/greensummer/tree/main">Github</a>
       </ul>
 

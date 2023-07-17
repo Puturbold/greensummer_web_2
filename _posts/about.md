@@ -1,7 +1,7 @@
 ---
 title: 'Mission & Values'
 excerpt: 'Welcome to NogoonZun!'
-coverImage: '/assets/blog/hello-world/cover.jpg'
+coverImage: '/assets/blog/dynamic-routing/mongolia-yak-summer-alpine-meadow.jpg'
 date: '2023-07-15T05:35:07.322Z'
 author:
   name: Turbold Baatarchuluu

@@ -7,6 +7,7 @@ import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
 import { CMS_NAME } from '../lib/constants'
 import Post from '../interfaces/post'
+import Team from '../components/team'
 
 type Props = {
   allPosts: Post[]
@@ -23,6 +24,7 @@ export default function Index({ allPosts }: Props) {
         <Container>
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
+        <Team />
       </Layout>
     </>
   )
