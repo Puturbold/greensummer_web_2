@@ -18,7 +18,7 @@ const MoreStories = ({ posts }: Props) => {
           style={{
             border: "none",
             width: "100%",
-            height: "500px"
+            height: "800px"
           }}
         ></iframe>
       </div>
