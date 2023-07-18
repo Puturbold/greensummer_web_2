@@ -10,10 +10,10 @@ type Props = {
 
 const Layout = ({children }: Props) => {
   return (
-    <div className=" bg-black px-5">
+    <div className=" bg-accent-1 px-5">
       <Meta />
       <Header/>
-      <div className=" bg-black">
+      <div className=" bg-accent-1">
 
           <div>{children}</div>
       </div>

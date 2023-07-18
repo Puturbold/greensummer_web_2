@@ -8,7 +8,7 @@ type Props = {
 const MoreStories = ({ posts }: Props) => {
   return (
     <section>
-      <h2 className="mb-8 text-2xl  font-bold tracking-tighter leading-tight bg-black max-w-xl">
+      <h2 className="mb-8 text-2xl text-accent-2 font-bold tracking-tighter leading-tight bg-accent-1 max-w-xl">
       NogoonZun is a digital platform, providing integrative evidence-based decision-making geospatial visualization tools for herders, local governments, and conservationists.  
       </h2>
 
