@@ -16,7 +16,7 @@ const Team = () => {
           <ul role="list" className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
             <li>
               <div className="flex items-center space-x-4 lg:space-x-6">
-                <img className="object-cover w-16 h-16 rounded-full lg:h-20 lg:w-20" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2070&amp;q=80" alt="" />
+                <img className="object-cover w-16 h-16 rounded-full lg:h-20 lg:w-20" src="/assets/blog/authors/turbold.jpeg" alt="" />
                 <div className="space-y-1">
                   <h3 className="text-lg font-medium leading-6 text-black">
                     Turbold Baatarchuluu
@@ -29,7 +29,7 @@ const Team = () => {
             </li>
             <li>
               <div className="flex items-center space-x-4 lg:space-x-6">
-                <img className="object-cover w-16 h-16 rounded-full lg:h-20 lg:w-20" src="/assets/blog/authors/joe.jpeg" alt="" />
+                <img className="object-cover w-16 h-16 rounded-full lg:h-20 lg:w-20" src="/assets/blog/authors/khusel.jpeg" alt="" />
                 <div className="space-y-1">
                   <h3 className="text-lg font-medium leading-6 text-black">
                     Khusel Avirmed
@@ -42,7 +42,7 @@ const Team = () => {
             </li>
             <li>
               <div className="flex items-center space-x-4 lg:space-x-6">
-                <img className="object-cover w-16 h-16 rounded-full lg:h-20 lg:w-20" src="/assets/blog/authors/tim.jpeg" alt="" />
+                <img className="object-cover w-16 h-16 rounded-full lg:h-20 lg:w-20" src="/assets/blog/authors/oyut.jpeg" alt="" />
                 <div className="space-y-1">
                   <h3 className="text-lg font-medium leading-6 text-black">
                     Oyut Amarjargal
