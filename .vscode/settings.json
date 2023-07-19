@@ -1,0 +1,12 @@
+"[javascript]": {
+    "editor.foldingStrategy": "indentation"
+},
+"[javascriptreact]": {
+    "editor.foldingStrategy": "indentation"
+},
+"[typescript]": {
+    "editor.foldingStrategy": "indentation"
+},
+"[typescriptreact]": {
+    "editor.foldingStrategy": "indentation"
+}
