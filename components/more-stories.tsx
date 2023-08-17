@@ -14,7 +14,7 @@ const MoreStories = ({ posts }: Props) => {
 
       <div>
         <iframe 
-          src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/s/z829s6saxw9ndu4/keplergl_6vlnbt9.json"
+          src="https://kepler.gl/demo/map?mapUrl=https://dl.dropboxusercontent.com/scl/fi/9mfeff500gzbamd39hecy/keplergl_5v7c9oi.json"
           style={{
             border: "none",
             width: "100%",
